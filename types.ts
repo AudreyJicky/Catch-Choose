@@ -19,4 +19,14 @@ export interface CatchRecord {
   dollName: string;
   emoji: string;
   timestamp: string;
+  deviceName: string;
+  authorizedBy?: string;
+}
+
+export interface UserProfile {
+  name: string;
+  email: string;
+  lastLogin: string;
+  isLoggedIn: boolean;
+  avatar?: string;
 }
